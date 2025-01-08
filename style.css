@@ -175,3 +175,41 @@ img {
 .info__card h4 {
   color: #474747;
 }
+
+.skill__area {
+  padding: 50px 0;
+}
+
+.skill__content {
+  text-align: center;
+}
+
+.skill__showcase {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.skill__card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill__icon {
+  margin-bottom: 10px;
+}
+
+.skill__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 10px;
+}
+
+.skill__description {
+  font-size: 15px !important;
+}
