@@ -6,13 +6,13 @@
 }
 
 :root {
-  --primary-color: #FD6E0A;
+  --primary-color: #fd6e0a;
   --paragraph-color: #474747;
   --title-color: #181818;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .btn {
@@ -29,6 +29,10 @@ img {
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.header {
+  background-color: #fff8f3;
 }
 
 .navigation__bar {
@@ -70,4 +74,70 @@ img {
 
 .nav-btn {
   padding: 18px 35px;
+}
+
+.banner__area {
+  background: url("./images/header_bg.png");
+  background-color: #fff8f3;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.banner__area > div:first-child {
+  position: absolute;
+  top: -10%;
+  left: 2%;
+}
+
+.banner__area > div:first-child img {
+  width: 70%;
+}
+
+.banner__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner__left {
+  width: 45%;
+}
+
+.banner__left h3 {
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: 10px;
+}
+
+.banner__left h2 {
+  font-size: 70px;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.banner__left p {
+  font-size: 18px;
+  color: var(--paragraph-color);
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.banner__btn button {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.banner__btn button:last-child {
+  background-color: transparent;
+  outline: 1px solid var(--primary-color);
+  color: var(--primary-color) !important;
+  margin-left: 10px;
+}
+
+.banner__right {
+  width: 45%;
+  position: relative;
 }
