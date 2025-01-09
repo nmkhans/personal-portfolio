@@ -28,7 +28,7 @@ img {
 
 .section__title {
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--title-color);
   margin-bottom: 20px;
 }
@@ -210,6 +210,64 @@ img {
   margin-bottom: 10px;
 }
 
+.resume__area {
+  padding: 50px 0;
+}
+
+.resume__content {
+  text-align: center;
+}
+
 .skill__description {
   font-size: 15px !important;
+}
+
+.resume__showcase {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 100px;
+}
+
+.experience__heading {
+  margin-bottom: 30px;
+  text-align: left;
+  color: var(--paragraph-color);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.experience__detail {
+  text-align: left;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #D1D1D1;
+  margin-bottom: 30px;
+}
+
+.experience__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--paragraph-color);
+  margin-bottom: 10px;
+}
+
+.experience__sub__title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.experience__desc {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+.resume__button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.resume__button button {
+  padding: 17px;
 }
